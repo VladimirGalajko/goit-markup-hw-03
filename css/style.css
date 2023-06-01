@@ -1,0 +1,212 @@
+:root {
+  --primari-color: #2e2f42;
+  --second-color: #ffffff;
+  --another-color: #4d5ae5;
+  --text-color: #434455;
+  --text-color-f: #f4f4fd;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: var(--second-color);
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--another-color);
+}
+.list {
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+}
+.header-link.link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primari-color);
+}
+.header-link.link:is(:hover, :focus) {
+  color: #404bbf;
+}
+span {
+  color: var(--primari-color);
+}
+
+/* .header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primari-color);
+} */
+.item-studio {
+  color: #422e33;
+}
+
+.header-contacts.link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+address {
+  font-style: normal;
+}
+.header-contacts.link:is(:hover, :focus) {
+  color: #404bbf;
+}
+
+.hero {
+  background-color: var(--primari-color);
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--second-color);
+}
+.hero-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--second-color);
+  background-color: #4d5ae5;
+}
+.hero-btn:is(:hover, :focus) {
+  background-color: #404bbf;
+}
+
+.studio-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primari-color);
+}
+.studio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+.prtfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--primari-color);
+}
+
+.ourteam {
+  background-color: var(--text-color-f);
+}
+.ourteam-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--primari-color);
+}
+.ourteam-meny-item {
+  background-color: #ffffff;
+}
+.ourteam-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  letter-spacing: 0.02em;
+  color: var(--primari-color);
+}
+.ourteam-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.footer {
+  background-color: var(--primari-color);
+}
+.footer-logo.link {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+  color: var(--another-color);
+}
+.footer-logo span {
+  color: var(--another-color);
+}
+.link {
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+.footer .footer-span {
+  color: #f4f4fd;
+}
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color-f);
+}
+/*--------------------- portfolio -----------------*/
+.listbtn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--text-color-f);
+  cursor: pointer;
+  color: var(--another-color);
+}
+
+.listbtn.actv:is(:hover, :focus) {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+
+.rowpictures-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primari-color);
+}
+.rowpictures-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+/* .prtfolio-link.link {
+  text-decoration: none;
+} */
