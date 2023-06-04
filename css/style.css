@@ -57,6 +57,7 @@ img {
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .header-navigation {
   display: flex;
@@ -101,7 +102,6 @@ span {
   display: flex;
   align-items: center;
   gap: 40px;
-  justify-content: flex-end;
 }
 
 address {
@@ -335,9 +335,9 @@ address {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
-/* .prtfolio-link.link {
-  text-decoration: none;
-} */
+.portfolio {
+  padding: 96px 0 120px 0;
+}
 .portfolio-listbtn {
   display: flex;
   padding-top: 96px;
@@ -363,4 +363,5 @@ address {
 .prtfolio-name {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
