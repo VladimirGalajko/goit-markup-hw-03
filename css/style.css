@@ -365,3 +365,6 @@ address {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+.footer-text {
+  max-width: 264px;
+}
