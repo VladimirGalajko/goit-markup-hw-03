@@ -89,6 +89,7 @@ span {
   align-items: center;
   gap: 40px;
   padding: 24px;
+  margin: 0;
 }
 
 .header-contacts.link {
@@ -102,6 +103,7 @@ span {
   display: flex;
   align-items: center;
   gap: 40px;
+  margin: 0;
 }
 
 address {
@@ -345,15 +347,16 @@ address {
   color: var(--text-color);
 }
 .portfolio {
-  padding: 96px 0 120px 0;
+  padding: 0;
 }
 .portfolio-listbtn {
   display: flex;
   padding-top: 96px;
-  margin-bottom: 72px;
+  padding-bottom: 72px;
   gap: 24px;
   justify-content: center;
   padding-left: 0;
+  margin: 0;
 }
 
 .portfolio-list-rowpictures {
@@ -364,11 +367,9 @@ address {
   row-gap: 48px;
   padding-left: 0;
   margin: 0;
-}
-
-.rowpictures-item {
   width: calc(100% * 24 * 6) / 9;
 }
+
 .prtfolio-name {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
