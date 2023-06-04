@@ -4,6 +4,7 @@
   --another-color: #4d5ae5;
   --text-color: #434455;
   --text-color-f: #f4f4fd;
+  --color-border-btn: 1px solid #e7e9fc;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -310,11 +311,13 @@ address {
   color: var(--another-color);
   border-radius: 4px;
   padding: 12px 24px;
+  border: var(--color-border-btn);
 }
 
 .listbtn.actv:is(:hover, :focus) {
   background-color: #404bbf;
   color: #ffffff;
+  border: 1px solid transparent;
 }
 
 .rowpictures-title {
@@ -323,6 +326,7 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primari-color);
+  margin-bottom: 8px;
 }
 .rowpictures-text {
   font-weight: 400;
@@ -337,7 +341,7 @@ address {
 .portfolio-listbtn {
   display: flex;
   padding-top: 96px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   gap: 24px;
   justify-content: center;
   padding-left: 0;
@@ -348,10 +352,15 @@ address {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
   padding-left: 0;
   margin: 0;
 }
 
 .rowpictures-item {
   width: calc(100% * 24 * 6) / 9;
+}
+.prtfolio-name {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
