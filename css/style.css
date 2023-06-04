@@ -153,6 +153,9 @@ address {
 .hero-btn:is(:hover, :focus) {
   background-color: #404bbf;
 }
+.studio {
+  /* padding: 120px 0; */
+}
 .container-studio {
   display: flex;
   padding: 120px 0;
@@ -178,7 +181,17 @@ address {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
-
+.portfolio {
+  padding-bottom: 120px;
+}
+.container-prtfolio {
+  display: flex;
+  gap: 24px;
+  margin-right: 0;
+}
+.prtfolio-menu-item {
+  width: calc((100% - 24px * 2) / 3);
+}
 .prtfolio-title {
   font-weight: 700;
   font-size: 36px;
